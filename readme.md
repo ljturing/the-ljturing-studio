@@ -2,8 +2,4 @@
 
 # [键盘开发文档](https://ljturing.github.io/the_ljturing_studio/)
 
-<p align="left">
-    <img alt="The LJTuring Studio Logo" src="./docs/assets/logo.png" width="100">
-</p>
-
 本文档用于纪录键盘开发过程、开发资源统计和其他键盘相关功能。
