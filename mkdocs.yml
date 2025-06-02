@@ -1,0 +1,50 @@
+site_name: 键盘开发文档
+site_url: https://ljturing.github.io/the_ljturing_studio/
+repo_url: https://github.com/LJTuring/the_ljturing_studio
+
+theme:
+    name: material
+    palette: 
+        scheme: slate
+        primary: black
+        accent: green
+    logo: assets/logo.svg
+    icon:
+        repo: fontawesome/brands/github
+    favicon: images/favicon.png
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - header.autohide
+        - navigation.footer
+
+nav:
+    - 主页: index.md
+    - AMK配置: amk_configuration.md
+    - KMK配置: kmk_configuration.md
+    - QMK配置: qmk_configuration.md
+    - RMK配置: rmk_configuration.md
+    - ZMK配置: zmk_configuration.md
+    - 其他: other.md
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - admonition
+    - pymdownx.details
+    - tables
+    - footnotes
+    - def_list
+    - pymdownx.keys:
+        key_map: {
+            "rgbtog": "KC.RGB_TOG",
+        }
+
+copyright: Created and maintained by LJTuring
