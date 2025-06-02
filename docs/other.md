@@ -2,26 +2,19 @@
 title: 其他
 description: 键盘开发文档
 hide:
-  - navigation
+    - navigation
 ---
 
 ## 一些使用Linux的常规操作
 
 ```shell
-# 更新
-sudo apt-get update
-sudo apt-get upgrade -y
-
-# 更新子模块
-git submodule update --init --recursive
-
 # 安装UF2转换工具
 python3 -m pip install --pre -U git+https://github.com/makerdiary/uf2utils.git@main
 
-# .elf装.hex
+# .elf转.hex
 objcopy -O ihex *.elf *.hex
 
-# .elf装.bin
+# .elf转.bin
 objcopy -O binary *.elf *.bin
 
 # .hex转.uf2
