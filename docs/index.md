@@ -70,12 +70,12 @@ hide:
 
 一些主流开源键盘固件的本地配置文档，都是对官方文档进行精简，不适合新手。遇到任何问题请查看官方文档或联系我。
 
-- [AMK配置](./amk_configuration.md)
+- [AMK配置](./amk_config.md)
 
-- [KMK配置](./kmk_configuration.md)
+- [KMK配置](./kmk_config.md)
 
-- [QMK配置](./qmk_configuration.md)
+- [QMK配置](./qmk_config.md)
 
-- [RMK配置](./rmk_configuration.md)
+- [RMK配置](./rmk_config.md)
 
-- [ZMK配置](./zmk_configuration.md)
+- [ZMK配置](./zmk_config.md)
