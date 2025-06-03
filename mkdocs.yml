@@ -1,6 +1,6 @@
 site_name: 键盘开发文档
-site_url: https://ljturing.github.io/the_ljturing_studio/
-repo_url: https://github.com/LJTuring/the_ljturing_studio
+site_url: https://ljturing.github.io/the-ljturing-studio/
+repo_url: https://github.com/LJTuring/the-ljturing-studio
 
 theme:
     name: material
@@ -46,6 +46,6 @@ markdown_extensions:
 extra:
     social:
         - icon: fontawesome/brands/github
-          link: https://github.com/LJTuring/the_ljturing_studio
+          link: https://github.com/LJTuring/the-ljturing-studio
 
 copyright: Created and maintained by LJTuring
