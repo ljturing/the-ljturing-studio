@@ -3,6 +3,7 @@ title: 主页
 description: 键盘开发文档
 hide:
     - navigation
+    - toc
 ---
 
 ## 🚀已完成开发的键盘套件
@@ -52,6 +53,11 @@ hide:
 
 ## 🚀一些开源键盘固件对比
 
+!!! note "注意"
+    一些主流开源键盘固件的本地配置文档，都是对官方文档进行精简。遇到任何问题请查看官方文档或联系我！
+
+    点击下方标题可跳转官方网页
+
 | | [AMK](https://github.com/yulei/amk) | [KMK](https://github.com/KMKfw/kmk_firmware) | [QMK](https://github.com/qmk/qmk_firmware) | [RMK](https://github.com/HaoboGu/rmk) | [ZMK](https://github.com/zmkfirmware/zmk) |
 | :- | :-: | :-: | :-: | :-: | :-: |
 | 语言 | C | Python | C | Rust | C |
@@ -61,21 +67,15 @@ hide:
 | 有线分体 | ✅ | | ✅ | 🚧 | |
 | 无线分体 | | ✅ | | ✅ | ✅ |
 | ARM芯片（STM32/nRF/RP2040） | ✅ | ✅ | ✅ | ✅ | ✅ |
-| RISC-V和Xtensa芯片 | | | | ✅ | |
+| RISC-V和Xtensa芯片 | | | 仅支持GD32 | ✅ | |
 | 鼠标键 | ✅ | ✅ | ✅ | ✅ | 🚧 |
 | 配置 | json + makefile | micropython | json + makefile | toml | Kconfig + devicetree |
 | 层/宏/媒体键 | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 
+[AMK配置](./amk_config.md){: .md-button .md-button--primary }
+[KMK配置](./kmk_config.md){: .md-button .md-button--primary }
+[QMK配置](./qmk_config.md){: .md-button .md-button--primary }
+[RMK配置](./rmk_config.md){: .md-button .md-button--primary }
+[ZMK配置](./zmk_config.md){: .md-button .md-button--primary }
 
-一些主流开源键盘固件的本地配置文档，都是对官方文档进行精简，不适合新手。遇到任何问题请查看官方文档或联系我。
-
-- [AMK配置](./amk_config.md)
-
-- [KMK配置](./kmk_config.md)
-
-- [QMK配置](./qmk_config.md)
-
-- [RMK配置](./rmk_config.md)
-
-- [ZMK配置](./zmk_config.md)

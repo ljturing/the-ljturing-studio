@@ -3,11 +3,12 @@ title: 其他
 description: 键盘开发文档
 hide:
     - navigation
+    - toc
 ---
 
 ## 一些使用Linux的常规操作
 
-```shell
+```shell linenums="1"
 # 安装UF2转换工具
 python3 -m pip install --pre -U git+https://github.com/makerdiary/uf2utils.git@main
 
