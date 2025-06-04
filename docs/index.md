@@ -10,7 +10,7 @@ hide:
 
 | | 套件 | VID | PID | 特性 | 验证 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 1 | Palice | 0x5123 | 0xA001 | 32U4/F103，Alice | ✅ |
+| 1 | [Palice](https://www.zfrontier.com/app/flow/gBlJdj6xwWRP) | 0x5123 | 0xA001 | 32U4/F103，Alice | ✅ |
 | 2 | Luolin | 0x5123 | 0xA002 | 16U2 | 🚧 |
 | 3 | AD43 R1 | 0x5123 | 0xA003 | 32U4 | 🚧 |
 | 4 | AD43 R2 | 0x5123 | 0xA004 | F103，RGB | ✅ |
